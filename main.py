@@ -17,8 +17,10 @@ while True:
         from functools import wraps
         from collections import Counter
         from datetime import datetime
-        from config import TOKEN
-
+        # from config import TOKEN
+        
+        TOKEN = "780145984:AAFnKJ6kg4elDMDfz4DmT-nsh4OiHjBFOiE"
+        
         # main thread locker
         lock = threading.Lock()
         # max depth setting(need for while True cycle)
