@@ -8,6 +8,8 @@ There are some charachers that will look a little bit different in messanger.=)
 
 """
 # -*- coding: utf-8 -*-
+print("[*]Started!")
+
 while True:
     try:
         import sys
@@ -446,3 +448,6 @@ while True:
         time.sleep(1337)
         time.sleep(228)
 
+
+print("[*]Stopped!")
+        
