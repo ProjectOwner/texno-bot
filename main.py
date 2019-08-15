@@ -269,7 +269,7 @@ while True:
 
             """
             add_list(message)
-            lists_func(message, STR_info)
+            lists_func(message, STR_help)
 
 
         @TOKEN.message_handler(commands=["password123"])
